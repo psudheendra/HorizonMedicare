@@ -1,0 +1,56 @@
+<!-- <mat-sidenav-container class="example-container" *ngIf="!shouldRun">
+
+  <mat-sidenav mode="side" opened class="md-theme-indigo">
+    
+    <mat-toolbar md-scroll-shrink >
+      <cuppa-slidemenu [menulist]="menuItemsArray" (open)="onMenuOpen()" (close)="onMenuClose()" (onItemSelect)="onItemSelect($event)"></cuppa-slidemenu>
+      <div class="md-toolbar-tools">
+        <h3>
+          <span>Horizon Medicare</span>
+        </h3>
+      </div>
+    </mat-toolbar>
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span>Search</span>
+      </mat-toolbar-row>
+
+      <mat-toolbar-row>
+        <span>CMS Communications</span>
+        <span class="example-spacer"></span>
+        
+      </mat-toolbar-row>
+    </mat-toolbar>
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="md-toolbar-tools">
+      <h3>
+        <span>CMS Communications</span>
+      </h3>
+      <app-form>
+
+      </app-form>
+    </div>
+    
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<div *ngIf="shouldRun">Please open on Stackblitz to see result</div> -->
+
+
+<!-- <mat-sidenav-container class="example-container" *ngIf="shouldRun">
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened" (opened)="events.push('open!')"
+               (closed)="events.push('close!')">
+    Sidenav content
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <p><mat-checkbox [(ngModel)]="opened">sidenav.opened</mat-checkbox></p>
+    <p><button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button></p>
+    <p>Events:</p>
+    <div class="example-events">
+      <div *ngFor="let e of events">{{e}}</div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container> -->
